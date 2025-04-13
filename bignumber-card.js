@@ -42,7 +42,7 @@ class BigNumberCard extends HTMLElement {
       }
       #value {
         font-size: calc(var(--base-unit) * 1.3);
-        line-height: calc(var(--base-unit) * 1.0);
+        line-height: calc(var(--base-unit) * 0.8);
         color: var(--bignumber-color);
       }
       #value small{opacity: ${cardConfig.opacity}}
